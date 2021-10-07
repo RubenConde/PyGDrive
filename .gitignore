@@ -129,4 +129,10 @@ dmypy.json
 .pyre/
 
 #IDE's folders
-.vscode/
+.vscode/*
+!.vscode/launch.json
+
+# Secrets
+config/*.yaml
+config/*.json
+!config/settings.example.yaml

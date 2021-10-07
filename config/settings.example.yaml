@@ -1,0 +1,16 @@
+client_config_backend: settings
+client_config:
+  client_id: USER GOOGLE DRIVE API CLIENT ID
+  client_secret: USER GOOGLE DRIVE API CLIENT SECRET
+
+save_credentials: True
+save_credentials_backend: file
+save_credentials_file: ./config/credentials.json
+
+get_refresh_token: True
+
+oauth_scope:
+  - https://www.googleapis.com/auth/drive
+  - https://www.googleapis.com/auth/drive.file
+  - https://www.googleapis.com/auth/drive.install
+  - https://www.googleapis.com/auth/drive.metadata
